@@ -2,9 +2,7 @@ import React from "react";
 import "./header.css";
 import NetflixLogo from "../../assets/images/NetflixLogo.png";
 import SearchIcon from "@mui/icons-material/Search";
-
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
-
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
@@ -44,7 +42,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-
+      //* just to show the css effect delet befor deployment
+      {/* sample  */}
       {/*           
       <div className="outer">
         <div className="inner1">
@@ -91,4 +90,4 @@ const Header = () => {
 
 export default Header;
 
-//* just to show the css effect delet befor deployment
+
