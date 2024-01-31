@@ -11,6 +11,7 @@ const Banner = () => {
     (async () => {
       try {
         const request = await axios.get(requests.fetchNetflixOriginals);
+        console.log(requests.fetchNetflixOriginals);
         // console.log(request);
         const randomIndex = Math.floor(
           Math.random() * request.data.results.length
@@ -18,7 +19,7 @@ const Banner = () => {
         //console.log(randomIndex);
         const randomMovie = request.data.results[randomIndex];
         setMovie(randomMovie);
-        //console.log(randomMovie);
+        // console.log(randomMovie);
       } catch (error) {
         console.log("error", error);
       }
@@ -43,6 +44,7 @@ const Banner = () => {
           backgroundImage: `url('https://image.tmdb.org/t/p/original${movie?.backdrop_path}')`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          //   height: "100vh",
         }}
       >
         <div className="banner__contents">

@@ -42,8 +42,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-      //* just to show the css effect delet befor deployment
-      {/* sample  */}
+      {/* //* just to show the css effect delet befor deployment
+      sample  */}
       {/*           
       <div className="outer">
         <div className="inner1">
@@ -89,5 +89,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
